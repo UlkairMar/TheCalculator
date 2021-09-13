@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    border: 1px blueviolet solid;
+}
+
+html {
+    border: 0;
+}
+
+body {
+    border: 0;
+}
+
+.ekran {
+    width: 400px;
+    height: 100px;
+    top: 5px;
+    left: 5px;
+    background: #fff;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.panel {
+    width: 400px;
+    height: 500px;
+    left: 5px;
+    background: white;
+    border: 2px solid black
+}
+
+.panel>div {
+    display: inline-block;
+}
+
+.panel>.simvol>div[id*="sim"] {
+    background-color: cyan;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    display: inline-block;
+}
+
+.simvol {
+    width: 250px;
+    height: 335px;
+    position: fixed;
+}
+
+.ekran>div {
+    height: 20px;
+}
+
+#osnova {
+    width: 410px;
+    height: 615px;
+    position: center;
+    background: brown;
+}

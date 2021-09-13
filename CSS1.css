@@ -1,0 +1,102 @@
+.plate {
+    position: fixed;
+    width: 406px;
+    height: 604px;
+    top: 50px;
+    left: 300px;
+    background-color: darkgray;
+}
+
+.monitor {
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    top: 2px;
+    left: 3px;
+    background-color: dimgray;
+}
+
+.monitor div {
+    height: 30px;
+    max-width: 400px;
+    text-align: right;
+    background-color: ghostwhite;
+}
+
+.keyboard {
+    position: absolute;
+    width: 400px;
+    height: 450px;
+    top: 152px;
+    left: 3px;
+    background-color: ghostwhite;
+}
+
+.figures {
+    position: absolute;
+    width: 300px;
+    height: 385px;
+    background-color: ghostwhite;
+}
+
+.operations {
+    position: absolute;
+    width: 100px;
+    height: 385px;
+    left: 300px;
+    background-color: ghostwhite;
+}
+
+.actions {
+    position: absolute;
+    width: 400px;
+    height: 65px;
+    top: 385px;
+    background-color: ghostwhite;
+}
+
+.figures>div {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: cadetblue;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.operations>div{
+    position: relative;
+    width: 90px;
+    height: 80px;
+    background-color: darkgray;
+    display: inline-block;
+    margin: 8px 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.actions>div {
+    position: relative;
+    width: 150px;
+    height: 55px;
+    display: inline-block;
+    margin: 5px 23px;
+    left: 2px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 10px;
+}
+
+#clear {
+    background-color: darkred;
+}
+
+#summary {
+    background-color: cornflowerblue;
+}
